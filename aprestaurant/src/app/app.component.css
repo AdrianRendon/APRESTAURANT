@@ -1,0 +1,22 @@
+:host { 
+    color:  white;
+}
+
+#bg-image  { 
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://pbs.twimg.com/media/FCJnMF9XoAgjW0w.jpg);
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-position: 50%;
+    background-color: rgb(50, 50, 50)  ;
+    background-blend-mode: multiply;
+    z-index: -1;
+
+}
+    
+.spacer {
+    flex: 1 1 auto;
+  }
