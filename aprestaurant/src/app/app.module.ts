@@ -13,11 +13,15 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import {MatTableModule} from '@angular/material/table';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { ReservationComponent } from './reservation/reservation.component';
+import { LoginComponent } from './login/login.component';
+import { ReservationListComponent } from './reservation-list/reservation-list.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 
 
@@ -27,6 +31,9 @@ import { ReservationComponent } from './reservation/reservation.component';
     HomeComponent,
     MenuComponent,
     ReservationComponent,
+    LoginComponent,
+    ReservationListComponent,
+    UserListComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +49,7 @@ import { ReservationComponent } from './reservation/reservation.component';
     MatSelectModule,
     MatFormFieldModule,
     MatIconModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
